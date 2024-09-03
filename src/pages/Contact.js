@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Contact.css'
+import gif from '../assets/anime.gif';
 
 const Contact = () => {
   return (
@@ -27,7 +28,7 @@ const Contact = () => {
         </form>
       </div>
       <div className="contact-gif">
-        <img src="path/to/your/gif.gif" alt="Contact GIF" />
+        <img src={gif}alt="Contact GIF" />
       </div>
     </div>
   );

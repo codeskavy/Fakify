@@ -12,7 +12,7 @@
   }
   
   .contact-form {
-    width: 50%;
+    width: 60%; /* Increased width to make the form box wider */
   }
   
   .contact-form h2 {
@@ -60,19 +60,22 @@
   }
   
   .send-btn:hover {
-    background-color: orange;
+    background-color: darkorange; /* Slightly darker on hover */
   }
   
   .contact-gif {
     width: 45%;
+     /* Adjusted width to fit layout with the wider form */
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
   .contact-gif img {
-    max-width: 100%;
+    width: 100%;
+    height:500px;
     border-radius: 10px;
+    padding-left:20px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
   }
   
