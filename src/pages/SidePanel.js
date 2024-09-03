@@ -1,5 +1,7 @@
 import React from 'react';
-import 'src/styles/SidePanel.css';
+
+import '../styles/SidePanel.css';
+
 
 const SidePanel = ({ position }) => {
   const isLeft = position === 'left';

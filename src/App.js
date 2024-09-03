@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Header from './pages/header';
+import Header from './pages/Header';
 import HeroSection from './pages/HeroSection';
 import SidePanel from './pages/SidePanel';
 
