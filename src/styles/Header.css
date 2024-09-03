@@ -6,25 +6,61 @@
     padding: 20px 40px;
     background-color: #000;
     color: white;
-  }
-  
-  .logo h1 {
+}
+
+.logo h1 {
     font-size: 24px;
     color: white;
-  }
-  
-  .nav-links a, .get-started {
+}
+
+.nav-links a, .get-started {
     margin: 0 15px;
     text-decoration: none;
     color: white;
     font-weight: bold;
-  }
-  
-  .get-started {
+}
+
+.get-started {
     background-color: orange;
     border: none;
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
-  }
+    color: white; /* Ensure text is visible on the orange background */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a; /* Dark background color */
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.navbar-item {
+    color: #fff; /* White text color */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s, background 0.3s;
+    font-family: sans-serif;
+    background: linear-gradient(45deg, white, white); /* Set initial background */
+    -webkit-background-clip: text; /* Ensure gradient applies to text */
+    -webkit-text-fill-color: transparent; /* Ensure text color is transparent */
+}
+
+.navbar-item:hover {
+    background: linear-gradient(45deg, #ff6600, silver);
+    -webkit-background-clip: text; /* Apply gradient to text */
+    -webkit-text-fill-color: transparent; /* Ensure text is visible */
+}
+
+.navbar-item.active {
+    background: linear-gradient(45deg, #ff6600, #ffcc00); /* Gradient for active item */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    -webkit-text-fill-color: transparent; /* Ensure text is visible */
+}
+
   

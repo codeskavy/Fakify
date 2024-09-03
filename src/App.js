@@ -13,9 +13,9 @@ import Footer from './pages/Footer';
 function App() {
   return (
     <div className="App">
-       <Navbar />
+       
       <Header />
-     
+      
       <HeroSection />
  <div className="side-panels">
         <SidePanel position="left" />

@@ -8,6 +8,12 @@ const Header = () => {
       <div className="logo">
         <h1>DeFake.ai</h1>
       </div>
+      <nav className="navbar">
+      <a href="#home" className="navbar-item">Home</a>
+      <a href="#about" className="navbar-item">About</a>
+      <a href="#how-it-works" className="navbar-item active">How it works</a>
+      <a href="#Contact" className="navbar-item">Contact</a>
+    </nav>
       
         
         <button className="get-started">Get Started</button>
