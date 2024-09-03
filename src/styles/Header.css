@@ -25,14 +25,15 @@
 }
 
 
-.nav-links a, .get-started {
+
+.nav-links a, .login,.signup {
     margin: 0 15px;
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-.get-started {
+.login,.signup {
     background-color: orange;
     border: none;
     padding: 10px 20px;

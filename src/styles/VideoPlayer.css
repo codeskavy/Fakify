@@ -1,16 +1,16 @@
 .video-container {
     position: relative;
-    width: 600px; /* Adjust width as needed */
+    width: 80%; /* Set width to 90% of the container */
     margin: 0 auto;
   }
   
   .tv-effect {
     position: relative;
-    border: 10px solid black;
+    border: 5px solid #333; /* Boundary color and width */
     border-radius: 8px;
-    padding: 5px;
-    background: #000;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    padding: 10px; /* Increase padding if you want more space between the boundary and the video */
+    background: #000; /* Background color inside the boundary */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); /* Optional shadow effect */
   }
   
   .video {

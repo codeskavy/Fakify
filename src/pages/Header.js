@@ -17,8 +17,11 @@ const Header = () => {
       <a href="#Contact" className="navbar-item">Contact</a>
     </nav>
       
-        
-        <button className="get-started">Get Started</button>
+        <div className='auth-buttons'>
+        <button className="login">Login</button>
+        <button className="login">Signup</button>
+        </div>
+      
       
     </header>
   );
