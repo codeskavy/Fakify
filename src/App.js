@@ -13,6 +13,7 @@ function App() {
         <SidePanel position="left" />
         <SidePanel position="right" />
       </div>
+      <MagicCrystals />
     </div>
   );
 }
