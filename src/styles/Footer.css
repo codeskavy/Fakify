@@ -14,7 +14,7 @@
   }
   
   .footer-link {
-    color: #01d28e;
+    color: orange;
     text-decoration: none;
     margin: 0 15px;
     font-size: 1.1em;
@@ -22,7 +22,7 @@
   }
   
   .footer-link:hover {
-    color: #00b27e;
+    color: orange;
   }
   
   .footer-credits {

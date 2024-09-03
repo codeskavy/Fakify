@@ -11,7 +11,7 @@
     content: '';
     position: absolute;
     width: 4px;
-    background-color: #01d28e; /* Timeline line color */
+    background-color: orange; /* Timeline line color */
     top: 0;
     bottom: 0;
     left: 50%;
@@ -41,7 +41,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #01d28e; /* Circle color */
+    background-color: orange; /* Circle color */
     top: 15px;
     left: -10px;
     transform: translateX(-50%);
