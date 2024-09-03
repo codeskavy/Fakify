@@ -7,6 +7,8 @@ import Navbar from './pages/Navbar';
 import MagicCrystals from './pages/MagicCrystals'
 import About from './pages/About';
 import HowItWorks from './pages/HowItWorks';
+import Contact from './pages/Contact';
+import Footer from './pages/Footer';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       <MagicCrystals />
       <About/>
       <HowItWorks/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
