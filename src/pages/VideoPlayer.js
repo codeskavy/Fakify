@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import '../styles/VideoPlayer.css';
 
+// Import video files directly
+import video1 from '../assets/ok.mp4';
+import video2 from '../assets/ok2.mp4';
+import video3 from '../assets/ok.mp4';
 
-const videos = [
-  'src\assets\Deepfake example. Original_Deepfake close shot Bill Gates..mp4',
-  'src\assets\Deepfake Example. Original_Deepfake Elon Musk..mp4',
-  'src\assets\Deepfake Example. Original_Deepfake Elon Musk..mp4',
-];
+// Use the imported video files in the videos array
+const videos = [video1, video2, video3];
 
 const VideoPlayer = () => {
   const [currentVideo, setCurrentVideo] = useState(0);
@@ -34,3 +35,5 @@ const VideoPlayer = () => {
 };
 
 export default VideoPlayer;
+
+
