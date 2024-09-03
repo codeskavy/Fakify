@@ -9,6 +9,7 @@ import About from './pages/About';
 import HowItWorks from './pages/HowItWorks';
 import Contact from './pages/Contact';
 import Footer from './pages/Footer';
+import VideoPlayer from './pages/VideoPlayer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       </div>
       <MagicCrystals />
       <About/>
+      <VideoPlayer/>
       <HowItWorks/>
       <Contact/>
       <Footer/>
