@@ -1,0 +1,23 @@
+.side-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 200px;
+  }
+  
+  .side-panel.left {
+    text-align: left;
+  }
+  
+  .side-panel.right {
+    text-align: right;
+  }
+  
+  .side-content {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  

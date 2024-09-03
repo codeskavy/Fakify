@@ -1,0 +1,30 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #000;
+    color: white;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .nav-links a, .get-started {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .get-started {
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,42 @@
+.hero {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .hero-text {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+  
+  .highlight {
+    color: orange;
+    font-style: italic;
+  }
+  
+  .email-subscribe {
+    margin-top: 20px;
+  }
+  
+  .email-subscribe input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .email-subscribe button {
+    padding: 10px 20px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
