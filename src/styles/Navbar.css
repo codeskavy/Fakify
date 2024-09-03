@@ -17,11 +17,11 @@
   }
   
   .navbar-item:hover {
-    color: #f17f49; /* Orange color on hover */
+    color: orange; /* Orange color on hover */
   }
   
   .navbar-item.active {
-    color: #f17f49; /* Orange color for active item */
+    color: orange; /* Orange color for active item */
   }
   
   
