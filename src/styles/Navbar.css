@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a; /* Dark background color */
+    padding: 10px 20px;
+    border-radius: 25px;
+  }
+  
+  .navbar-item {
+    color: #fff; /* White text color */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .navbar-item:hover {
+    color: #f17f49; /* Orange color on hover */
+  }
+  
+  .navbar-item.active {
+    color: #f17f49; /* Orange color for active item */
+  }
+  
+  

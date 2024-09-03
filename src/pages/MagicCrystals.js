@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import './styles/MagicCrystals.css'
+import '../styles/MagicCrystals.css'
 
 const MagicCrystals = () => {
   useEffect(() => {
