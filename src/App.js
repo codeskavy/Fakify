@@ -4,6 +4,7 @@ import Header from './pages/Header';
 import HeroSection from './pages/HeroSection';
 import SidePanel from './pages/SidePanel';
 import Navbar from './pages/Navbar';
+import MagicCrystals from './pages/MagicCrystals'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <SidePanel position="left" />
         <SidePanel position="right" />
       </div>
+      <MagicCrystals />
     </div>
   );
 }
