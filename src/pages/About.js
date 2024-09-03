@@ -1,6 +1,8 @@
 // src/components/AboutUs.js
 import React from 'react';
-import '../styles/About.css'
+import '../styles/About.css';
+
+
 
 const About = () => {
   const goals = [
@@ -23,6 +25,16 @@ const About = () => {
         <h3>Efficiency</h3>
         <p>Streamline operations</p>
         <p>Optimize your processes to achieve maximum productivity.</p>
+      </div>
+      <div className="goal-box">
+        <h3>Innovation</h3>
+        <p>Lead the market</p>
+        <p>Develop innovative solutions that give you a competitive edge.</p>
+      </div>
+      <div className="goal-box">
+        <h3>Innovation</h3>
+        <p>Lead the market</p>
+        <p>Develop innovative solutions that give you a competitive edge.</p>
       </div>
       <div className="goal-box">
         <h3>Innovation</h3>

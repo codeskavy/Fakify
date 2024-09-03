@@ -14,6 +14,8 @@
     font-size: 18px;
     cursor: pointer;
     transition: color 0.3s;
+    font-family: sans-serif;
+    
   }
   
   .navbar-item:hover {
