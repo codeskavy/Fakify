@@ -16,6 +16,7 @@ const About = () => {
 
   return (
     <div className="about-us-container">
+        
       <div className="goal-box">
         <h3>Growth</h3>
         <p>Innovation led strategy</p>
