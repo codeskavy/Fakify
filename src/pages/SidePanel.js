@@ -1,9 +1,11 @@
 import React from 'react';
 
 import '../styles/SidePanel.css';
-
+import bg from '../assets/bg.jpg';
 
 const SidePanel = ({ position }) => {
+ 
+  
   const isLeft = position === 'left';
   const content = isLeft ? (
     <>
@@ -19,6 +21,7 @@ const SidePanel = ({ position }) => {
 
   return (
     <div className={`side-panel ${position}`}>
+       <img src={bg} />
       {content}
     </div>
   );

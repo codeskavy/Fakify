@@ -62,13 +62,13 @@
     cursor: pointer;
     transition: color 0.3s, background 0.3s;
     font-family: sans-serif;
-    background: linear-gradient(45deg, silver, white); /* Set initial background */
+    background: linear-gradient(45deg, white, white); /* Set initial background */
     -webkit-background-clip: text; /* Ensure gradient applies to text */
     -webkit-text-fill-color: transparent; /* Ensure text color is transparent */
 }
 
 .navbar-item:hover {
-    background: linear-gradient(45deg, #ff6600, silver);
+    background: linear-gradient(45deg, #ff6600, #ffcc00);
     -webkit-background-clip: text; /* Apply gradient to text */
     -webkit-text-fill-color: transparent; /* Ensure text is visible */
 }

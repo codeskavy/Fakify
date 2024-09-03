@@ -1,13 +1,15 @@
 import React from 'react';
 
 import '../styles/HeroSection.css';
-
+import bg from '../assets/bg.jpg';
 
 
 const HeroSection = () => {
   return (
     <section className="hero">
+       
       <div className="hero-text">
+       
       <h1>We protect authenticity. <br /> Safeguard your <span className="highlight">digital truth</span></h1>
 
         <div className="email-subscribe">
@@ -20,4 +22,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
