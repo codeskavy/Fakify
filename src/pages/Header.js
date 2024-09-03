@@ -1,12 +1,14 @@
 import React from 'react';
 import '../styles/Header.css';
-
+import logo from '../assets/logo.jpg'
 
 const Header = () => {
   return (
     <header className="header">
       <div className="logo">
+      <img src={logo} className='img'/>
         <h1>DeFake.ai</h1>
+        
       </div>
       <nav className="navbar">
       <a href="#home" className="navbar-item">Home</a>
